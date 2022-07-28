@@ -12,7 +12,7 @@ services:
       MYSQL_DATABASE: db-course
   # web
   web:
-    image : springboot_course:latest
+    image : springboot-course-app:latest
     depends_on:
       - mysql
     ports:
